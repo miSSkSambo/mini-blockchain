@@ -11,7 +11,27 @@ A modular blockchain ledger simulator written in Haskell using Cabal and Nix.
 This project demonstrates functional state transitions, block hashing, ledger validation, multi-block growth, and proof-of-work simulation within a clean modular architecture.
 
 ---
+# 📑 Table of Contents
 
+- [📖 Project Overview](#-project-overview)
+- [🏗️ Architecture Overview](#️-architecture-overview)
+- [🔗 Core Features](#-core-features)
+  - [1️⃣ Block Structure](#1️⃣-block-structure)
+  - [2️⃣ Ledger State Machine](#2️⃣-ledger-state-machine)
+  - [3️⃣ Multi-Block Simulation](#3️⃣-multi-block-simulation)
+  - [4️⃣ Chain Validation](#4️⃣-chain-validation)
+  - [⛏️ Proof-of-Work Mining](#⛏️-proof-of-work-mining)
+- [🖥️ Setup & Installation Guide](#️-setup--installation-guide-windows--wsl2--nix)
+- [🔨 Build & Run](#-build--run)
+- [📸 Screenshots](#-screenshots)
+- [🔍 Validation Output](#-validation-output)
+- [🧠 Concepts Demonstrated](#-concepts-demonstrated)
+- [🧰 Technologies Used](#-technologies-used)
+- [🚀 Future Improvements](#-future-improvements)
+- [👤 Author](#-author)
+- [📜 License](#-license)
+
+  
 # 📖 Project Overview
 
 This simulator models a simplified blockchain system with:
