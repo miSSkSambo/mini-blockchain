@@ -1,5 +1,12 @@
 # 🚀 Mini Blockchain Simulator (Haskell)
 
+
+![Haskell](https://img.shields.io/badge/Language-Haskell-purple)
+![Build](https://img.shields.io/badge/Build-Cabal-blue)
+![Nix](https://img.shields.io/badge/Environment-Nix-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+![Status](https://img.shields.io/badge/Project-Active-success)
+
 A modular blockchain ledger simulator written in Haskell using Cabal and Nix.
 
 This project demonstrates:
@@ -13,7 +20,6 @@ This project demonstrates:
 - Tamper detection logic
 
 ---
-
 # 📦 Architecture Overview
 
 The system is modular and divided into:
