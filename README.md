@@ -16,16 +16,17 @@ This project demonstrates functional state transitions, block hashing, ledger va
 - [📖 Project Overview](#-project-overview)
 - [🏗️ Architecture Overview](#️-architecture-overview)
 - [🔗 Core Features](#-core-features)
-  - [1️⃣ Block Structure](#1️⃣-block-structure)
-  - [2️⃣ Ledger State Machine](#2️⃣-ledger-state-machine)
-  - [3️⃣ Multi-Block Simulation](#3️⃣-multi-block-simulation)
-  - [4️⃣ Chain Validation](#4️⃣-chain-validation)
-  - [⛏️ Proof-of-Work Mining](#⛏️-proof-of-work-mining)
+  - [Block Structure](#-block-structure)
+  - [Ledger State Machine](#-ledger-state-machine)
+  - [Multi-Block Simulation](#-multi-block-simulation)
+  - [Chain Validation](#-chain-validation)
+  - [Proof-of-Work Mining](#-proof-of-work-mining)
 - [🖥️ Setup & Installation Guide](#️-setup--installation-guide-windows--wsl2--nix)
 - [🔨 Build & Run](#-build--run)
 - [📸 Screenshots](#-screenshots)
 - [🔍 Validation Output](#-validation-output)
 - [🧠 Concepts Demonstrated](#-concepts-demonstrated)
+- [💡 Why I Built This](#-why-i-built-this)
 - [🧰 Technologies Used](#-technologies-used)
 - [🚀 Future Improvements](#-future-improvements)
 - [👤 Author](#-author)
@@ -292,6 +293,25 @@ True
 - Error handling using `Either`
 - Modular system architecture
 - Simplified Proof-of-Work consensus
+
+---
+
+---
+
+# 💡 Why I Built This
+
+I built this project to deepen my understanding of how blockchain systems function at a structural and algorithmic level. Rather than relying on existing blockchain frameworks, I wanted to implement core concepts from first principles in Haskell to better understand deterministic state transitions, hash-linked data structures, and consensus mechanisms.
+
+This project allowed me to explore:
+
+- How immutable ledger state evolves through validated transactions  
+- How block hashes create tamper-resistant chains  
+- How Proof-of-Work enforces computational cost  
+- How functional programming models deterministic distributed systems  
+
+By building a modular architecture (Types → Ledger → Blockchain → Main), I intentionally separated concerns to mirror real-world blockchain systems, where validation logic, state transition rules, and networking layers are independent components.
+
+This simulator is not intended to replace production blockchain frameworks. Instead, it serves as a foundational learning tool and architectural experiment demonstrating how distributed ledger systems can be modeled using pure functional programming.
 
 ---
 
